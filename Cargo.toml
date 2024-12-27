@@ -3,6 +3,10 @@ name = "syncthing-task-resolve"
 description = "Resolve syncthing conflicts for taskwarrior databases"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/adam-gaia/syncthing-task-resolve"
+repository = "https://github.com/adam-gaia/syncthing-task-resolve"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5.21", features = ["derive"] }
@@ -16,7 +20,9 @@ regex = "1.11.1"
 serde = { version = "1.0.216", features = ["derive"] }
 serde_json = "1.0.134"
 task-hookrs = "0.9.0"
-taskchampion = { version = "1.0.2", default-features = false, features = ["bundled"] }
+taskchampion = { version = "1.0.2", default-features = false, features = [
+  "bundled",
+] }
 tempfile = "3.14.0"
 toml = "0.8.19"
 uuid = "1.11.0"
