@@ -1,3 +1,11 @@
+Archive notice:
+This tool is no longer needed; [Taskchamp](https://github.com/marriagav/taskchamp) now supports syncing with taskwarrior's sync server!
+
+
+
+
+----------------------------------------
+
 # syncthing-task-resolve
 
 Resolve conflicts from syncing taskwarrior (taskchampion.sqlite3) databases with syncthing
